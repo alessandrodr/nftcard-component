@@ -52,8 +52,8 @@ a:hover {
     margin-bottom: 10px;
 }
 .margins3 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
 } 
 .text-white {
     color: white;
@@ -88,10 +88,21 @@ a:hover {
     display: flex;
     background-color: hsla(178, 100%, 50%, 0.5);
 }
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (max-width: 440px) {
+
+            .sm\:hide {
+                display: none;
+            }
+            
+        }
 </style>
 </head>
 <body>
-    <div style="width: 360px; border-radius: 18px;" class="bg-card margins3 shadow">
+    <div style="width: 360px; min-width: 360px; border-radius: 18px;" class="bg-card margins3 shadow">
         <div style="padding: 20px;">
             
             <div class="image-container">
@@ -102,15 +113,15 @@ a:hover {
             <a href=""><h1 class="margins text-white" style="font-size: 25px;" >Equilibrium #3429</h1></a>
             <p class="grey margins" >Our Equilibrium collection promotes balance and calm</p>
             <div style="display: flex;" class="margins">
-                <img src="img/icon-ethereum.svg" style="margin-right: 10px;" alt="">
-                <p class="cyan" >0,041 ETH</p>
-                <img src="img/icon-clock.svg" alt="" style="margin-left: 100px;" class="square-icon">
+                <img src="img/icon-ethereum.svg" style="margin-right: 10px;" class="sm:hide" alt="">
+                <p class="cyan" style="margin-right: auto;">0,041 ETH</p>
+                <img src="img/icon-clock.svg" alt="" style="margin-left: auto;" class="square-icon sm:hide">
                 <p class="grey" style="margin-left: 10px;">3 days left</p>
             </div>
             
             <hr>
-            <div style="display: flex;" class="margins2">
-                <img src="img/julies.png" alt="" style="width: 35px; height: auto; margin-right: 20px;" class="border-icon" >
+            <div style="display: flex; align-items: center;" class="margins2">
+                <img src="img/julies.png" alt="" style="width: 35px; height: auto; margin-right: 10px;" class="border-icon" >
                 <p class="grey">Creation of <a href="" class="text-white">Jules Wyvern</a></p>    
             </div>
         </div>
