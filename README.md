@@ -6,7 +6,7 @@ NFT card component will display title, description, name of author, the value an
 
 Mobile view:
 
-<img src="https://user-images.githubusercontent.com/103607112/165850040-4f2bfe00-9fec-4ae1-bece-9eb489cf3209.png" width="375" height="auto" title="nft-mobile">
+<img src="https://user-images.githubusercontent.com/103607112/165931013-5291cc13-9e13-4824-adfd-c2aa38ed0c13.jpg" width="375" height="auto" title="nft-mobile">
 
 
 Desktop view:
